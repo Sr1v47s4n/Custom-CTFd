@@ -207,7 +207,7 @@ def setup():
             # Splice in our banner
             index = f"""<div class="row">
     <div class="col-md-6 offset-md-3">
-        <img class="w-100 mx-auto d-block" style="max-width: 500px; padding: 50px; padding-top: 14vh;" src="{default_ctf_banner_location}" alt="Null EEC National Level CTF Banner" />
+        <img class="w-100 mx-auto d-block" style="max-width: 500px; padding: 50px; padding-top: 14vh;" src="{default_ctf_banner_location}" />
         
         <h3 class="text-center">
             <p>Welcome to the Null EEC National Level CTF!</p>
