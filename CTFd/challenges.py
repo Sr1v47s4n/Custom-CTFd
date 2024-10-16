@@ -50,8 +50,8 @@ def listing():
 
     if ctf_ended() is True:
         infos.append(
-            f"That’s a wrap, everyone! Thanks for joining us today! We hope you had a blast! 
-            Until next time, keep smiling and stay awesome!"
+            "That’s a wrap, everyone! Thanks for joining us today! We hope you had a blast! \n"
+            "Until next time, keep smiling and stay awesome!"
         )
 
     return render_template("challenges.html", infos=infos, errors=errors)
