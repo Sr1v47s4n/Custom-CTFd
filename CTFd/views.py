@@ -207,19 +207,18 @@ def setup():
             # Splice in our banner
             index = f"""<div class="row">
     <div class="col-md-6 offset-md-3">
-        <img class="w-100 mx-auto d-block" style="max-width: 500px; padding: 50px; padding-top: 14vh;" src="{default_ctf_banner_location}" />
-        
+        <img class="w-100 mx-auto d-block" style="max-width: 500px;padding: 50px;padding-top: 14vh;" src="{default_ctf_banner_location}" />
         <h3 class="text-center">
             <p>Welcome to the Null EEC National Level CTF!</p>
-            <p>Your ultimate playground for hacking and fun!</p>
-            <p>Powered by <a href="https://ctfd.io">ctfd.io</a>—the coolest CTF platform out there!</p>
-            <p>Let’s connect and share the excitement:</p>
-            <a href="https://www.linkedin.com/company/null-eec"><i class="fab fa-linkedin fa-2x" aria-hidden="true"></i></a>&nbsp;
-            <a href="https://www.instagram.com/null.eec/"><i class="fab fa-instagram fa-2x" aria-hidden="true"></i></a>&nbsp;
-            <a href="https://null.community/chapters/46-null-eec-easwari-engineering-college-ramapuram-student-chapter"><i class="fas fa-globe fa-2x" aria-hidden="true"></i></a>
+            <p>Follow us on social media:</p>
+             <a href="https://www.linkedin.com/company/null-eec"><i class="fab fa-linkedin fa-2x" aria-hidden="true"></i></a>&nbsp;
+        <a href="https://www.instagram.com/null.eec/"><i class="fab fa-instagram fa-2x" aria-hidden="true"></i></a>&nbsp;
+        <a href="https://null.community/chapters/46-null-eec-easwari-engineering-college-ramapuram-student-chapter"><i class="fas fa-globe fa-2x" aria-hidden="true"></i></a>
         </h3>
-        
-
+        <br>
+        <h4 class="text-center">
+            <a href="admin">Click here</a> to login and setup your CTF
+        </h4>
     </div>
 </div>
 """
